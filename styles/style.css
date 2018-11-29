@@ -4,3 +4,67 @@ html {
     background-size: 100% 100%;
 	min-height: 100%;
 }
+
+#navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+nav.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.1);
+}
+
+ul.top-level {
+    /*display: table;*/
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+	font-size: 2em;
+	float: left;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 14px 30px;
+}
+
+li a:hover:not(.active) {
+    background-color: #242424;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+	font-size: 16px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+#AboutMe {
+    background-color: white;
+    margin: 0 auto;
+	padding: 10px 20px;
+}
+
+/*#Yodel {
+    font-size: 8em;
+    text-align: center;
+    color: #ffffff;
+}*/
+
+
