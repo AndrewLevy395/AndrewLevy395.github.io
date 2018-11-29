@@ -55,16 +55,48 @@ body {
 	padding: 0 20px;
 }
 
-#AboutMe {
-    background-color: white;
-    margin: 0 auto;
-	padding: 10px 20px;
+#Heading {
+    text-align: center;
+    background: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-/*#Yodel {
+h1 {
+    font-size: 3.75em;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#AboutMe {
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.25em;
+}
+
+#About {
+    margin: 50px;
+}
+
+#Portrait {
+    float: right;
+    margin: 40px 30px 30px 30px;
+}
+
+#Yodel {
     font-size: 8em;
     text-align: center;
     color: #ffffff;
-}*/
+}
 
 
