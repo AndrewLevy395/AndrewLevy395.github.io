@@ -79,7 +79,7 @@ body {
 
 #AboutMe {
     background-color: aliceblue;
-    margin: 0 auto;
+    margin-bottom: 30px;
     padding: 10px 20px;
     font-size: 1.25em;
     /*max-height: 350px;*/
