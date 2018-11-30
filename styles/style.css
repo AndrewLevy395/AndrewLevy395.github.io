@@ -91,7 +91,7 @@ body {
 .Portrait {
     float: right;
     margin: 40px 45px 30px 30px;
-    background: url(../images/Portrait.JPG) no-repeat;
+    background: url(../images/Portrait.PNG) no-repeat;
     background-size: cover;
     display: block;
     -moz-box-sizing: border-box;
