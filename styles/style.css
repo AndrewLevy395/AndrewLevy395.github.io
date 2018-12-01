@@ -106,7 +106,7 @@ body {
 .WPI {
     float: left;
     margin: 45px 45px 30px 45px;
-    background: url(../images/WPI.PNG) no-repeat;
+    background: url(../images/WPI.png) no-repeat;
     background-size: cover;
     display: block;
     -moz-box-sizing: border-box;
