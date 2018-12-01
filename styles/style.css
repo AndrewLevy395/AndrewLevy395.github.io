@@ -60,7 +60,7 @@ body {
     padding-top: 10px;
     padding-bottom: 15px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-color: black;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -82,7 +82,7 @@ body {
     margin-bottom: 30px;
     padding: 10px 20px;
     font-size: 1.25em;
-    /*max-height: 350px;*/
+    min-height: 350px;
 }
 
 #About {
@@ -103,5 +103,33 @@ body {
     padding-left: 180px; 
 }
 
+.WPI {
+    float: left;
+    margin: 45px 45px 30px 45px;
+    background: url(../images/WPI.PNG) no-repeat;
+    background-size: cover;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    height: 290px; 
+    padding-left: 180px; 
+}
 
+.Muhlbach {
+    float: right;
+    margin: 0px 45px 30px 45px;
+    background: url(../images/Muhlbach.PNG) no-repeat;
+    background-size: cover;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 310px;
+    height: 220px; 
+    padding-left: 180px; 
+}
+
+.contact {
+    text-align: center;
+}
 
