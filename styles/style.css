@@ -64,6 +64,7 @@ body {
     border-color: black;
     margin-bottom: 30px;
     margin-top: 30px;
+    font-family: "fonthead";
 }
 
 #head1 {
@@ -74,7 +75,9 @@ body {
 #head2 {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 30px;
     font-size: 20px;
+    font-family: "fontbody";
 }
 
 #AboutMe {
@@ -83,6 +86,7 @@ body {
     padding: 10px 20px;
     font-size: 1.25em;
     min-height: 350px;
+    font-family: "fonthead";
 }
 
 #About {
@@ -118,7 +122,7 @@ body {
 
 .Muhlbach {
     float: right;
-    margin: 0px 45px 30px 40px;
+    margin: 30px 45px 30px 40px;
     background: url(../images/Muhlbach.PNG) no-repeat;
     background-size: cover;
     display: block;
@@ -131,5 +135,15 @@ body {
 
 .contact {
     text-align: center;
+}
+
+@font-face {
+    font-family: "fonthead";
+    src: url(../fonts/Ubuntu-L.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "fontbody";
+    src: url(../fonts/Ubuntu-R.ttf) format("truetype");
 }
 
