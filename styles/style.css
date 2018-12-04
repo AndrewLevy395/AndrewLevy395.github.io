@@ -137,6 +137,35 @@ body {
     text-align: center;
 }
 
+.backButton {
+    background-color: rgb(90, 190, 77);
+    border: none;
+    margin-right: 20px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    float:right;
+}
+
+.backButton:hover {
+    background-color: rgb(74, 151, 64);
+}
+.gameButton {
+    background-color: rgb(90, 190, 77);
+    border: none;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.gameButton:hover{
+    background-color: rgb(74, 151, 64);
+}
+
 @font-face {
     font-family: "fonthead";
     src: url(../fonts/Ubuntu-L.ttf) format("truetype");
