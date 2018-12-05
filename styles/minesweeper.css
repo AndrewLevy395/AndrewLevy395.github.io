@@ -1,0 +1,10 @@
+#canvas {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 65px;
+    margin-left: 50px;
+    float: right;
+}

@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Andrew Levy</title>
         <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="styles/minesweeper.css" rel="stylesheet" type="text/css">
         <script src="scripts/minesweeper.js"></script>
     </head>
     <body>
@@ -22,7 +23,7 @@
                 <li><a class="active" href="games.html">Games</a></li>
             </ul>
         </nav>
-        <div class="Portrait"></div>
+        <div class="Bomb"></div>
         <div id="AboutMe">
             <div id="head2">
                 <h2>Minesweeper</h2>
@@ -39,7 +40,21 @@
             "Pass die Seife". Der andere Eisbär sagt: "Keine Seife, Radio!"
                </p>
             <a href="games.html"><button class="backButton">Back</button></a>
-            
+            <canvas id="canvas" width="320" height="320"></canvas>
+            <br/>
+            <p id="About">Minesweeper Instructions:
+                <br/>
+                <br/>
+                You are presented with a board full of squares. Some of these squares contain mines and others don't. 
+                The squares that don't contain mines contain the number of how many surrounding squares are mines.
+                 <br/>
+                 <br/>
+                 If you click on a square containing a bomb, you lose and must restart. 
+                 If you manage to click all the squares without clicking on a bomb, you win.
+                 <br/>
+                 <br/>
+                 Good Luck!
+                    </p>
         </div>
         <footer id="footer">
             <section class="contact">
