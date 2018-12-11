@@ -107,19 +107,6 @@ body {
     padding-left: 180px; 
 }
 
-.Bomb {
-    float: left;
-    margin: 50px 45px 30px 45px;
-    background: url(../images/Bomb.png) no-repeat;
-    background-size: cover;
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 290px;
-    height: 240px; 
-    padding-left: 180px; 
-}
-
 .WPI {
     float: left;
     margin: 45px 45px 30px 45px;
@@ -150,22 +137,46 @@ body {
     text-align: center;
 }
 
-#AboutMe .backButton {
+#AboutMe .gameButtons button {
     background-color: rgb(90, 190, 77);
     border: none;
-    margin-right: 20px;
-    margin-top: 300px;
+    display: block;
     padding: 10px 28px;
-    text-align: center;
-    text-decoration: none;
     font-size: 16px;
-    color: white;
+}
+
+#AboutMe .gameButtons {
     float: right;
+}
+
+#AboutMe .gameButtons a{
+    text-decoration: none;
+}
+
+#AboutMe #newButton {
+   color:white;
+   margin-right: 30px;
+   margin-top: 35px;
+}
+
+#AboutMe #win {
+    margin-right: 20px;
+ }
+
+#AboutMe #newButton:hover {
+    background-color: rgb(74, 151, 64);
+}
+
+#AboutMe .backButton {
+    color: white;
+    margin-top: 360px;
+    margin-left: 50px;
 }
 
 #AboutMe .backButton:hover {
     background-color: rgb(74, 151, 64);
 }
+
 #AboutMe .gameButton {
     background-color: rgb(90, 190, 77);
     border: none;

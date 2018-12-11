@@ -5,7 +5,9 @@
         <title>Andrew Levy</title>
         <link href="styles/style.css" rel="stylesheet" type="text/css">
         <link href="styles/minesweeper.css" rel="stylesheet" type="text/css">
+        <script src="scripts/jquery-3.3.1.min.js"></script>
         <script src="scripts/minesweeper.js"></script>
+        
     </head>
     <body>
         <div id="Heading">
@@ -28,32 +30,41 @@
             <div id="head2">
                 <h2>Minesweeper</h2>
             </div>
-           <p id="About">Hello! <strong>Minesweeper</strong> will be available soon!
+           <p id="About">Hello! <strong>Minesweeper</strong> is available now!
+            <br/>
            <br/>
-           <br/>
-            In the meantime, here's a joke: Two Polar Bears are in a bathtub. One polar bear says, "Pass the soap". 
-            The other polar bear says, "No soap, Radio!"
+            Currently, the formatting of the game is under construction. Based on your screen size, the canvas or
+            buttons may be in improper locations.
             <br/>
             <br/>
-            Here it is in German: 
-            Zwei Eisbären sind in einer Badewanne. Ein Eisbär sagt: 
-            "Pass die Seife". Der andere Eisbär sagt: "Keine Seife, Radio!"
+            I will be working to fix this in the coming days, however the game itself works,
+            so enjoy! (Let me know if you find any bugs in the game. Thanks!)
                </p>
-            <a href="games.html"><button class="backButton">Back</button></a>
-            <canvas id="canvas" width="320" height="320"></canvas>
+               <div class = gameButtons>
+                    <button id="newButton">New Game</button>
+                    <p id="score">Flagged Mines: 0</p>
+                    <p id="win">Game in progress</p>
+                    <a href="games.html"><button class="backButton">Back</button></a>
+               </div>
+               <canvas id="canvas" width="502" height="502"></canvas>
             <br/>
-            <p id="About">Minesweeper Instructions:
+            <p id="About"><strong>Minesweeper </strong>Instructions:
                 <br/>
                 <br/>
                 You are presented with a board full of squares. Some of these squares contain mines and others don't. 
                 The squares that don't contain mines contain the number of how many surrounding squares are mines.
                  <br/>
                  <br/>
-                 If you click on a square containing a bomb, you lose and must restart. 
+                 If you left-click on a square containing a bomb, you lose and must restart. 
                  If you manage to click all the squares without clicking on a bomb, you win.
                  <br/>
                  <br/>
+                 You can also right-click on a square to flag it as a mine. This will not blow up a possible mine in the square
+                 and allow you to keep track of which squares you think have a mine.
+                 <br/>
+                 <br/>
                  Good Luck!
+                 <br/>
                     </p>
         </div>
         <footer id="footer">
