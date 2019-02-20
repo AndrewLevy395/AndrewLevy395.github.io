@@ -123,7 +123,7 @@ var start = function() {
             //right click flags cell
             if(e.button == 2 && board[cellColumn][cellRow].leftClicked == 0) {
                 if(board[cellColumn][cellRow].rightClicked == 0){
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "blue";
                     ctx.fillRect((1+cellColumn*1)+cellColumn*49,(1+cellRow*1)+cellRow*49,cellWidth,cellHeight);
                     board[cellColumn][cellRow].rightClicked = 1;
                     flaggedMines += 1;
@@ -152,7 +152,7 @@ var start = function() {
                 board[cellColumn][cellRow].rightClicked = 0;
             }
             if(board[cellColumn][cellRow].mine == 1){
-                ctx.fillStyle = "red";
+                ctx.fillStyle = "blue";
                 ctx.fillRect((1+cellColumn*1)+cellColumn*49,(1+cellRow*1)+cellRow*49,cellWidth,cellHeight);
                 $('#win').html("You Lose :(");
                 showAllCells(0);
@@ -196,7 +196,7 @@ var start = function() {
                         ctx.fillText(board[i][j].neighbors, (i + .5) * cellWidth, (j + .75) * cellHeight);
                     }
                 } else if (win == 0){
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "blue";
                     ctx.fillRect((1+i*1)+i*49,(1+j*1)+j*49,cellWidth,cellHeight);
                 } else if (win == 1){
                     ctx.fillStyle = "green";

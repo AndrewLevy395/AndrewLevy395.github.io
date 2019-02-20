@@ -28,6 +28,51 @@ ul.top-level {
     background-color: black;
 }
 
+ul.socialMedia {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul.socialMedia li {
+    display: inline;
+    margin: 0 5px;
+}
+
+ul.socialMedia li a:hover:not(.active) {
+    background-color: transparent;
+}
+
+.fa-linkedin {
+    color: black;
+    font-size: 48px;
+  }
+
+.fa-linkedin:hover {
+    color: orangered;
+    font-size: 48px;
+  }
+
+.fa-github-square {
+    color: black;
+    font-size: 48px;
+  }
+
+.fa-github-square:hover {
+    color: orangered;
+    font-size: 48px;
+  }
+
+.fa-envelope-square {
+    color: black;
+    font-size: 48px;
+  }
+
+.fa-envelope-square:hover {
+    color: orangered;
+    font-size: 48px;
+  }
+
 nav li {
 	font-size: 2em;
 	float: left;
@@ -45,7 +90,7 @@ li a:hover:not(.active) {
     background-color: #242424;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: orangered;
 }
 
 body {
@@ -78,6 +123,15 @@ body {
     margin-top: 30px;
     font-size: 20px;
     font-family: "fontbody";
+}
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:"fontbody";
+    background: aliceblue;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #AboutMe {
@@ -138,7 +192,7 @@ body {
 }
 
 #AboutMe .gameButtons button {
-    background-color: rgb(90, 190, 77);
+    background-color: orangered;
     border: none;
     display: block;
     padding: 10px 28px;
@@ -164,7 +218,7 @@ body {
  }
 
 #AboutMe #newButton:hover {
-    background-color: rgb(74, 151, 64);
+    background-color: rgb(255,100,0);
 }
 
 #AboutMe .backButton {
@@ -174,11 +228,11 @@ body {
 }
 
 #AboutMe .backButton:hover {
-    background-color: rgb(74, 151, 64);
+    background-color: rgb(255,100,0);
 }
 
 #AboutMe .gameButton {
-    background-color: rgb(90, 190, 77);
+    background-color: orangered;
     border: none;
     padding: 10px 28px;
     text-align: center;
@@ -188,7 +242,7 @@ body {
 }
 
 #AboutMe .gameButton:hover{
-    background-color: rgb(74, 151, 64);
+    background-color: rgb(255,100,0);
 }
 
 @font-face {
