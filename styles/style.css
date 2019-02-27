@@ -1,257 +1,259 @@
 html {
-    background-image: linear-gradient(to bottom right, #283048, #859398);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-	min-height: 100%;
+  background-image: linear-gradient(to bottom right, #283048, #859398);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100%;
 }
 
 #navbar {
-    overflow: hidden;
-    background-color: black;
+  overflow: hidden;
+  background-color: black;
 }
 
 nav.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	width: 100%;
-	z-index: 10;
-	box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
 ul.top-level {
-    /*display: table;*/
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
+  /*display: table;*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
 }
 
 ul.socialMedia {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 ul.socialMedia li {
-    display: inline;
-    margin: 0 5px;
+  display: inline;
+  margin: 0 5px;
 }
 
 ul.socialMedia li a:hover:not(.active) {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .fa-linkedin {
-    color: black;
-    font-size: 48px;
-  }
+  color: black;
+  font-size: 48px;
+}
 
 .fa-linkedin:hover {
-    color: orangered;
-    font-size: 48px;
-  }
+  color: orangered;
+  font-size: 48px;
+}
 
 .fa-github-square {
-    color: black;
-    font-size: 48px;
-  }
+  color: black;
+  font-size: 48px;
+}
 
 .fa-github-square:hover {
-    color: orangered;
-    font-size: 48px;
-  }
+  color: orangered;
+  font-size: 48px;
+}
 
 .fa-envelope-square {
-    color: black;
-    font-size: 48px;
-  }
+  color: black;
+  font-size: 48px;
+}
 
 .fa-envelope-square:hover {
-    color: orangered;
-    font-size: 48px;
-  }
+  color: orangered;
+  font-size: 48px;
+}
 
 nav li {
-	font-size: 2em;
-	float: left;
+  font-size: 2em;
+  float: left;
 }
 
 nav a {
-	display: block;
-	text-decoration: none;
-	text-align: center;
-	color: white;
-	padding: 14px 30px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 30px;
 }
 
 li a:hover:not(.active) {
-    background-color: #242424;
+  background-color: #242424;
 }
 .active {
-    background-color: orangered;
+  background-color: orangered;
 }
 
 body {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 #Heading {
-    text-align: center;
-    background: aliceblue;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    font-family: "fonthead";
+  text-align: center;
+  background: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: "fonthead";
 }
 
 #head1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-
 #head2 {
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: "fontbody";
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "fontbody";
 }
 
 #footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family:"fontbody";
-    background: aliceblue;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "fontbody";
+  background: aliceblue;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #AboutMe {
-    background-color: aliceblue;
-    margin-bottom: 30px;
-    padding: 10px 20px;
-    font-size: 1.25em;
-    min-height: 350px;
-    font-family: "fonthead";
+  background-color: aliceblue;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-size: 1.25em;
+  min-height: 350px;
+  font-family: "fonthead";
 }
 
 #About {
-    margin: 30px;
-    font-size: 20px;
+  margin: 30px;
+  font-size: 20px;
 }
 
 .Portrait {
-    float: left;
-    margin: 40px 45px 30px 45px;
-    background: url(../images/Portrait.PNG) no-repeat;
-    background-size: cover;
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 200px;
-    height: 290px; 
-    padding-left: 180px; 
+  float: left;
+  margin: 40px 45px 30px 45px;
+  background: url(../images/Portrait.PNG) no-repeat;
+  background-size: cover;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  height: 290px;
+  padding-left: 180px;
 }
 
 .WPI {
-    float: left;
-    margin: 45px 45px 30px 45px;
-    background: url(../images/WPI.png) no-repeat;
-    background-size: cover;
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 200px;
-    height: 290px; 
-    padding-left: 180px; 
+  float: left;
+  margin: 45px 45px 30px 45px;
+  background: url(../images/WPI.png) no-repeat;
+  background-size: cover;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  height: 290px;
+  padding-left: 180px;
 }
 
 .Muhlbach {
-    float: right;
-    margin: 30px 45px 30px 40px;
-    background: url(../images/Muhlbach.PNG) no-repeat;
-    background-size: cover;
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 310px;
-    height: 220px; 
-    padding-left: 180px; 
+  float: right;
+  margin: 30px 45px 30px 40px;
+  background: url(../images/Muhlbach.PNG) no-repeat;
+  background-size: cover;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 310px;
+  height: 220px;
+  padding-left: 180px;
 }
 
 .contact {
-    text-align: center;
+  text-align: center;
 }
 
 #AboutMe .gameButtons button {
-    background-color: orangered;
-    border: none;
-    display: block;
-    padding: 10px 28px;
-    font-size: 16px;
+  background-color: orangered;
+  border: none;
+  display: block;
+  padding: 10px 28px;
+  font-size: 16px;
+  margin-right: 43px;
 }
 
 #AboutMe .gameButtons {
-    float: right;
+  float: right;
 }
 
-#AboutMe .gameButtons a{
-    text-decoration: none;
+#AboutMe .gameButtons a {
+  text-decoration: none;
 }
 
 #AboutMe #newButton {
-   color:white;
-   margin-right: 30px;
-   margin-top: 35px;
+  color: white;
+  margin-right: 30px;
+  margin-top: 35px;
 }
 
 #AboutMe #win {
-    margin-right: 20px;
- }
+  margin-right: 20px;
+}
 
 #AboutMe #newButton:hover {
-    background-color: rgb(255,100,0);
+  background-color: rgb(255, 100, 0);
 }
 
 #AboutMe .backButton {
-    color: white;
-    margin-top: 360px;
-    margin-left: 50px;
+  color: white;
+  margin-top: 360px;
+  margin-left: 50px;
 }
 
 #AboutMe .backButton:hover {
-    background-color: rgb(255,100,0);
+  background-color: rgb(255, 100, 0);
 }
 
 #AboutMe .gameButton {
-    background-color: orangered;
-    border: none;
-    padding: 10px 28px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
+  background-color: orangered;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 150px;
 }
 
-#AboutMe .gameButton:hover{
-    background-color: rgb(255,100,0);
+#AboutMe .gameButton:hover {
+  background-color: rgb(255, 100, 0);
 }
 
 @font-face {
-    font-family: "fonthead";
-    src: url(../fonts/Ubuntu-L.ttf) format("truetype");
+  font-family: "fonthead";
+  src: url(../fonts/Ubuntu-L.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "fontbody";
-    src: url(../fonts/Ubuntu-R.ttf) format("truetype");
+  font-family: "fontbody";
+  src: url(../fonts/Ubuntu-R.ttf) format("truetype");
 }
-

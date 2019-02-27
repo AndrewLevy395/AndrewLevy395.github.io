@@ -4,27 +4,27 @@
   border-style: solid;
   margin-top: 20px;
   margin-bottom: 30px;
-  margin-right: 50px;
+  margin-right: 35px;
   margin-left: 50px;
   float: right;
 }
 
-.Bomb {
+.ColorPicker {
   float: left;
-  margin: 40px 40px 20px 60px;
-  background: url(../images/Bomb.png) no-repeat;
+  margin: 50px 50px 20px 40px;
+  background: url(../images/img_colormap.png) no-repeat;
   background-size: cover;
   display: block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 290px;
-  height: 240px;
+  height: 245px;
   padding-left: 180px;
 }
 
 #AboutMe .backButton {
   color: white;
-  margin-top: 350px;
+  margin-top: 390px;
   margin-left: 50px;
 }
 

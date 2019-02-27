@@ -10,9 +10,9 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <link href="styles/minesweeper.css" rel="stylesheet" type="text/css" />
+    <link href="styles/colorConverter.css" rel="stylesheet" type="text/css" />
     <script src="scripts/jquery-3.3.1.min.js"></script>
-    <script src="scripts/minesweeper.js"></script>
+    <script src="scripts/colorConverter.js"></script>
   </head>
   <body>
     <div id="Heading">
@@ -29,13 +29,13 @@
         <li><a class="active" href="games.html">Games</a></li>
       </ul>
     </nav>
-    <div class="Bomb"></div>
+    <div class="ColorPicker"></div>
     <div id="AboutMe">
       <div id="head2">
-        <h2>Minesweeper</h2>
+        <h2>Color Converter</h2>
       </div>
       <p id="About">
-        Hello! <strong>Minesweeper</strong> is available now!
+        Hello! <strong>Color Converter</strong> is available now!
         <br />
         <br />
         Currently, the formatting of the game is under construction. Based on
@@ -48,29 +48,31 @@
       </p>
       <div class="gameButtons">
         <button id="newButton">New Game</button>
-        <p id="score">Flagged Mines: 0</p>
+        <p id="score">Colors Remaining: 0</p>
         <p id="win">Game in progress</p>
         <a href="games.html"><button class="backButton">Back</button></a>
       </div>
       <canvas id="canvas" width="502" height="502"></canvas>
       <br />
       <p id="About">
-        <strong>Minesweeper </strong>Instructions:
+        <strong>Color Converter </strong>Instructions:
         <br />
         <br />
-        You are presented with a board full of squares. Some of these squares
-        contain mines and others don't. The squares that don't contain mines
-        contain the number of how many surrounding squares are mines.
+        Whenever two blocks of the same color collide, they transform into a new
+        color. The colors tranform in the order of blue, purple, dark green,
+        light green, yellow, orange, red, pink, gray, brown, and then black.
         <br />
         <br />
-        If you left-click on a square containing a bomb, you lose and must
-        restart. If you manage to click all the squares without clicking on a
-        bomb, you win.
+        The pieces can be moved around using the arrow keys. When a key is
+        pressed, all of the pieces on the board are shifted in that direction
+        until they reach the edge of the board or are obstructed by another
+        piece.
+
         <br />
         <br />
-        You can also right-click on a square to flag it as a mine. This will not
-        blow up a possible mine in the square and allow you to keep track of
-        which squares you think have a mine.
+        The goal of the game is to create a black block before the board is
+        completely filled up with squares. The number of remaining colors is
+        displayed to the right of the board.
         <br />
         <br />
         Good Luck!
