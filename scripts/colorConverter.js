@@ -120,7 +120,6 @@ $(document).keydown(function(e) {
       }
       //display spaces every .2 seconds
       id = setInterval(frame, 200, xdir, ydir);
-      $("#score").html("Remaining Colors: " + remaining);
     }
   }
 });
@@ -201,6 +200,7 @@ function frame(xdir, ydir) {
     if (fillmove > 1) {
       randomFill();
       fullBoardCheck();
+      $("#score").html("Remaining Colors: " + remaining);
     }
     solokey = 0;
     clearInterval(id);
@@ -236,7 +236,6 @@ function convert(color) {
       break;
     case "purple":
       newcolor = "darkgreen";
-
       remaining = Math.min(remaining, 8);
       break;
     case "darkgreen":
