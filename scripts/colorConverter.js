@@ -119,7 +119,7 @@ $(document).keydown(function(e) {
         ydir = 0;
       }
       //display spaces every .2 seconds
-      id = setInterval(frame, 200, xdir, ydir);
+      id = setInterval(frame, 150, xdir, ydir);
     }
   }
 });
@@ -200,7 +200,9 @@ function frame(xdir, ydir) {
     if (fillmove > 1) {
       randomFill();
       fullBoardCheck();
-      $("#score").html("Remaining Colors: " + remaining);
+      if (gameOver == 0) {
+        $("#score").html("Remaining Colors: " + remaining);
+      }
     }
     solokey = 0;
     clearInterval(id);
