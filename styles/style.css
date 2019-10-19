@@ -160,6 +160,19 @@ body {
   padding-left: 180px;
 }
 
+.Controller {
+  float: left;
+  margin: 60px 45px 30px 45px;
+  background: url(../images/controller.png) no-repeat;
+  background-size: cover;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 330px;
+  height: 210px;
+  padding-left: 180px;
+}
+
 .WPI {
   float: left;
   margin: 45px 45px 30px 45px;
@@ -199,6 +212,10 @@ body {
   margin-right: 43px;
 }
 
+#AboutMe .gameButtons button:hover {
+  cursor: pointer;
+}
+
 #AboutMe .gameButtons {
   float: right;
 }
@@ -221,16 +238,6 @@ body {
   background-color: rgb(255, 100, 0);
 }
 
-#AboutMe .backButton {
-  color: white;
-  margin-top: 360px;
-  margin-left: 50px;
-}
-
-#AboutMe .backButton:hover {
-  background-color: rgb(255, 100, 0);
-}
-
 #AboutMe .gameButton {
   background-color: orangered;
   border: none;
@@ -246,6 +253,7 @@ body {
 
 #AboutMe .gameButton:hover {
   background-color: rgb(255, 100, 0);
+  cursor: pointer;
 }
 
 @font-face {
